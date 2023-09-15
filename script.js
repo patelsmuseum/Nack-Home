@@ -10,7 +10,7 @@ const totalImages = Object.keys(images).length;
 
 
 const imageWidth = images[0].getBoundingClientRect().width + 40;
-// const imageWidth = 450;
+
 console.log("getbounding1", images[1].getBoundingClientRect());
 
 leftArrow.addEventListener("click", () => {
